@@ -20,7 +20,7 @@ public class Main {
                 default -> flag = false;
             }
             groceries.sort(Comparator.naturalOrder());
-            System.out.println(groceries);
+            System.out.println("groceries"+groceries);
         }
     }
 
